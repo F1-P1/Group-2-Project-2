@@ -36,6 +36,7 @@ function authorize(credentials, callback) {
 }
 
 /**
+ *The token stored previously is returned
  * Get and store new token after prompting for user authorization, and then
  * execute the given callback with the authorized OAuth2 client.
  * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
